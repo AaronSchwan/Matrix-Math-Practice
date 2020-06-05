@@ -342,13 +342,3 @@ def gaussian_ref(A:list)->list:
 
     #return matrix
     return M
-
-#A = identity_matrix(4)
-#B = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]];
-#C = matrix_addition(A,B);
-
-#print(identity_matrix(5))
-#print(matrix_transpose(B))
-#print(euclidian_dot_product([1,2,4,5],[2,5,4,3]))
-print(gaussian_ref([[1,2,3],[3,4,5],[5,8,8]]))
-#print(gaussian_row_mult(B,1,1/3))
